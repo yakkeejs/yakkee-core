@@ -1,0 +1,13 @@
+<section>
+  <div class="card invitation">
+    <img class="card-img-top invite-pic pull-left" src="{{vm.invitation.sender.profileImageURL}}" alt="{{vm.invitation.sender.displayName}}">
+    <div class="card-block">
+      <h2 class="card-title">Ring Ring, Ring Ring!</h2>
+      <h4 class="card-text">{{vm.invitation.sender.displayName}} would like to video yak with you!</h4>
+      <div class="btn-group">
+        <button ng-click="vm.inviteAccepted(vm.invitation)" class="btn btn-primary">Yeah! Let's do it!</button>
+        <button ng-click="vm.inviteDeclined(vm.invitation)" class="btn btn-danger">Can't right now</button>
+      </div>
+    </div>
+  </div>
+</section>

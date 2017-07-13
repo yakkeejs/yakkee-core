@@ -1,0 +1,134 @@
+@import url('http://fonts.googleapis.com/css?family=Sigmar+One|Shrikhand|Poppins');
+
+
+.content {
+  margin-top: 50px;
+  overflow-x: hidden;
+}
+.undecorated-link:hover {
+  text-decoration: none;
+}
+[ng\:cloak],
+[ng-cloak],
+[x-ng-cloak],
+.ng-cloak,
+.x-ng-cloak {
+  display: none !important;
+}
+.header-profile-image {
+  border-radius: 50%;
+  height: 28px;
+  margin-right: 5px;
+  opacity: 0.8;
+  width: 28px;
+}
+.open .header-profile-image,
+a:hover .header-profile-image {
+  opacity: 1;
+}
+.user-header-dropdown-toggle {
+  padding-bottom: 11px !important;
+  padding-top: 11px !important;
+}
+.user-primary-account {
+  font-size: 30px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.error-text {
+  display: none;
+}
+.has-error .help-block.error-text {
+  display: block;
+}
+.has-error .help-inline.error-text {
+  display: inline;
+}
+
+footer {
+  background-color: #466C79;
+  text-align: center;
+  /*height: 100vh;*/
+}
+
+footer a {
+  font-family: 'Poppins', sans-serif;
+  color: #C2B7C9;
+  text-decoration: none;
+}
+
+.footer-header {
+  color: #C2B7C9;
+	padding-bottom: 5rem;
+}
+
+.social-icons {
+	padding-bottom: 3rem;
+}
+
+.footer-social-icons {
+  /*margin-top: 50px;*/
+  text-align: center;
+  vertical-align: bottom;
+  line-height: 50px;
+  transition: font-size 0.25s ease-in-out;
+}
+
+.footer-social-icons:hover {
+  font-size: 5rem;
+}
+
+.footer-links {
+  margin-top: 50px;
+	padding-bottom: 5rem;
+}
+
+footer a:hover {
+  color: snow;
+  text-decoration: none;
+  text-shadow: 0px 0px 25px #4FB7F2;
+}
+
+.font {
+  font-family: 'Sigmar One', cursive;
+}
+
+.size {
+  font-size: 5rem;
+}
+.shadow {
+  text-shadow: #466C79 5px 5px;
+}
+
+.color {
+  color: #4FB7F2;
+}
+
+.snow {
+	color: snow;
+}
+
+.card-pic {
+  max-height: 25vh;
+}
+
+.space {
+	padding-bottom: 4rem;
+}
+
+.section-header {
+	color: snow;
+	text-align: left;
+	padding-left: 5rem;
+	padding-bottom: 5rem;
+}
+
+#newsletterEmail {
+	margin-left: 5rem;
+	width: 90vw;
+}
+
+#submit-button {
+	margin-right: 5vw;
+}

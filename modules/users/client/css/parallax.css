@@ -1,0 +1,102 @@
+/*.parallax {
+  background-image: url("../img/brand/abovefold.jpg");
+
+  min-height: 100vh;
+  min-width: 100vw;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron {
+  opacity: 50%;
+}*/
+
+
+@import url('http://fonts.googleapis.com/css?family=Sigmar+One|Shrikhand');
+
+body {
+	background: url('/modules/core/client/img/brand/abovefold.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	color:#fff;
+  	background-color:#333;
+  	font-family: 'Open Sans',Arial,Helvetica,Sans-Serif;
+}
+
+h1 {
+  font-family: 'Sigmar One', cursive;
+  font-size: 5rem;
+  text-shadow: #466C79 5px 5px;
+  color: #4FB7F2;
+}
+
+h2 {
+  font-family: 'Shrikhand', cursive;
+  color: #466C79;
+  text-shadow: #4FB7F2 2px 2px 5px;
+  font-size: 5rem;
+}
+
+a:link, a:visited {
+	color:#eee;
+}
+
+.block {
+	background-color:rgba(0,0,0,0.2);
+    height:370px;
+  	padding-left:12px;
+  	padding-right:12px;
+}
+
+.block-sm {
+    height:180px;
+}
+
+.btn-flat {
+  	font-family: 'Open Sans',Arial,Helvetica,Sans-Serif;
+	border-radius:0px;
+  	border-width:0;
+  	background-image:none;
+  	padding:16px;
+  	margin:0 auto;
+  	margin-top:15px;
+  	width:70%;
+    font-size:20pt;
+}
+
+/* mini carousel */
+.carousel-inner img {
+	width:100%;
+  	height:100%;
+}
+
+#myCarousel {
+	font-size:90%;
+}
+
+.carousel-controls-mini {
+	margin-left:42%;
+}
+
+.carousel-controls-mini > a {
+	border:1px solid #eee;
+  	margin:1px;
+  	width:20px;
+    display:block;
+  	float:left;
+    text-align:center;
+}
+
+#carousel-bounding-box {
+  margin:0 auto;
+  width:300px;
+}
+
+.text-xl {
+	font-size: 2rem;
+}

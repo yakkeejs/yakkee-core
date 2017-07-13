@@ -1,0 +1,41 @@
+<section ng-if="vm.authentication.user">
+    <link rel="stylesheet" href="/lib/stylesheets/signedIn.css">
+    <div class="user-search">
+
+    <h1 class="text-center" ng-if="!vm.search">Search for a Friend and start yakking!</h1>
+
+    <div class="container">
+      <div class="row">
+
+        <!-- search bar starts here -->
+  <div class="page-header" style="border-style: none;">
+    <div class="row">
+      <div class="col-md-4">
+      </div>
+      <div class="col-xs-10 col-xs-offset-1" style="margin-top: 2em">
+        <input class="form-control" type="text" ng-model="vm.search" placeholder="Search for someone by name or email" ng-change="vm.figureOutItemsToDisplay()" />
+      </div>
+    </div>
+  </div>
+  <div class="ng-hide" ng-show="vm.search">
+    <div class="card" ng-repeat="user in vm.pagedItems | orderBy: user.firstName">
+      <div class="card">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-4">
+              <img class="card-img-top card-pic" ng-src="{{user.profileImageURL}}" alt="user.displayName">
+            </div>
+            <div class="col-xs-offset-4">
+              <h4 class="card-title">{{user.displayName}}</h4>
+              <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+              <a ng-click="vm.videoChat(vm.authentication.user, user)" class="btn btn-primary btn-block">Yak with {{user.firstName}}</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <hr class="ng-hide"> -->
+    </div>
+  </div>
+
+  <uib-pagination class="ng-hide" ng-show="vm.search" boundary-links="true" max-size="8" items-per-page="vm.itemsPerPage" total-items="vm.filterLength" ng-model="vm.currentPage" ng-change="vm.pageChanged()"></uib-pagination>
+</section>

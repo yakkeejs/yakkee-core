@@ -1,0 +1,10 @@
+<section class="jitsi">
+
+  <link rel="stylesheet" href="/lib/stylesheets/videoCall.css">
+
+
+  <iframe ng-src="{{vm.$sce.trustAsResourceUrl(vm.invitation.link)}}"></iframe>
+
+  <button class="btn btn-danger btn-large hangup" ng-click="vm.hangup(vm.invitation);"><i class="medium material-icons right">call_end</i> HANG UP</button>
+</section>
+

@@ -1,0 +1,22 @@
+<section>
+  <link rel="stylesheet" href="/modules/users/client/css/rsvpToDecline.css" />
+  <div class="site-wrapper">
+
+    <div class="site-wrapper-inner">
+
+      <div class="cover-container">
+
+        <div class="inner cover">
+          <h2 class="text-center">{{vm.rsvp.receiver.displayName}}</h2>
+          <p class="lead text-center">...can't take your call right now. Please try again later or call try calling someone else.</p>
+          <p class="lead text-center">
+            <button ng-click="vm.responseAcknowledged()" class="btn btn-lg btn-primary">Okay</button>
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>

@@ -1,0 +1,18 @@
+iframe {
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.jitsi {
+	width: 100vw;
+	height: 100vh;
+}
+
+.hangup {
+	position: absolute;
+	left: 50%;
+	top: 80%;
+}

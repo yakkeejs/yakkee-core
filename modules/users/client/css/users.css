@@ -1,0 +1,44 @@
+@media (min-width: 992px) {
+  .nav-users {
+    position: fixed;
+  }
+}
+
+@import url('http://fonts.googleapis.com/css?family=Sigmar+One|Shrikhand|Poppins');
+
+body {
+  background: url(none);
+}
+
+label {
+  color: #4FB7F2;
+  font-family: 'Poppins', sans-serif;
+}
+
+input, .show-signup, .error-text {
+  font-family: 'Poppins', sans-serif;
+}
+
+.social-account-container {
+  display: inline-block;
+  position: relative;
+}
+.btn-add-remove-account {
+  pointer-events: none;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.user-profile-picture {
+  max-height: 150px;
+  min-height: 150px;
+}
+.social-button {
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.social-button:hover {
+  opacity: 0.65;
+}
