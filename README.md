@@ -1,3 +1,4 @@
+<script src="https://opencollective.com/yakkee/donate/button.js" color="[white|blue]"></script>
 # Yakkee
 
 [![OpenCollective](https://opencollective.com/yakkee/backers/badge.svg)](#backers) 
@@ -13,5 +14,8 @@ Yakkee is an open-source project with a mission to build a communication platfor
  ### To Contribute
  
  ### Donations Welcome!
+ <a href="https://opencollective.com/yakkee/donate" target="_blank">
+   <img src="https://opencollective.com/yakkee/donate/button@2x.png?color=blue" width=300 />
+ </a>
  
  
