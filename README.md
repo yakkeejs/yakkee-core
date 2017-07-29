@@ -1,6 +1,17 @@
 # Yakkee
-### A communication platform designed for seniors first. 
 
-Yakkee is an open-source project where the mission is to build a communication platform designed seniors-first. It is a place for people to connect and spend time with friends old and new over video chat complete with games and other opportunities for interaction.
+[![OpenCollective](https://opencollective.com/yakkee/backers/badge.svg)](#backers) 
+[![OpenCollective](https://opencollective.com/yakkee/sponsors/badge.svg)](#sponsors)
+### Introduction
+#### What is Yakkee?
+##### Yakkee is a communication platform designed for seniors first. 
+
+Yakkee is an open-source project with a mission to build a communication platform designed seniors-first. In essence, this means we want to adapt the interface to the user and not the other way around. Currently the goal is to create a conversational interface so that users only have to tell yakkee what they want to do.
  
- In every possible way, this platform will be designed to learn how to work with its users instead of having its users learn how to work with the platform.
+ ### Installation Instructions
+ 
+ ### To Contribute
+ 
+ ### Donations Welcome!
+ 
+ 
