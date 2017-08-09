@@ -34,6 +34,6 @@ In essence, this means we build a network around a senior or senior couple so th
  3. Please be patient. We will process your pull request as soon as we can. 
  
  ### Donations Welcome!
- <script src="https://opencollective.com/yakkee/donate/button.js" color="blue"></script>
+<a type="button" class="btn blue donate" target="_blank" href="https://opencollective.com/yakkee/donate" data-jsx="1310863207" data-reactid="4"></a>
  
  
