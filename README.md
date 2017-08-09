@@ -42,7 +42,7 @@ In essence, this means we build a network around a senior or senior couple so th
 </a>
 
 
-<h2 align="center">Sponsors</h2>
+### Sponsors
 
 [Become a sponsor](https://opencollective.com/yakkee#sponsor) and get your logo on our README on Github with a link to your site.
  
