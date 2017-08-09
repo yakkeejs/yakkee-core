@@ -35,8 +35,15 @@ In essence, this means we build a network around a senior or senior couple so th
  
  ### Donations Welcome!
  
+ The yakkee platform is currently free and takes in no revenue. If you would like to support this project and help its developers dedicate more time to it please click the link below to be come contribute and be featured as backer on yakkee.com and here on the github repo. 
+ 
 <a href="https://opencollective.com/yakkee/donate" target="_blank">
-  <img src="https://opencollective.com/yakkee/donate/button.png?color=blue" />
+  <img src="https://opencollective.com/yakkee/donate/button@2x.png?color=blue" />
 </a>
+
+
+<h2 align="center">Sponsors</h2>
+
+[Become a sponsor](https://opencollective.com/yakkee#sponsor) and get your logo on our README on Github with a link to your site.
  
  
